@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Slides</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="header__title">A scattering of diamonds!</h1>
+    </div>
+    <div class="container">
+        <div class="one item selected">
+            <h3>1ct Round Cut Diamond</h3>
+            <p class="desc">Very Good Cut | I Colour | SI1 Clarity</p>
+            <p class="price">$7,000.00</p>
+        </div>
+        <div class="two item">
+            <h3>1.20ct Diamond Engagement Ring</h3>
+            <p class="desc">14K white gold diamond solitaire ring featuring a 1.20 carat round brilliant includes a GIA diamond certificate.</p>
+            <p class="price">$9,250</p>
+        </div>
+        <div class="three item">
+            <h3>Halo Engagement Ring</h3>
+            <p class="desc">1ct Round Engagement Ring in 14k White Gold</p>
+            <p class="price">$10,580.00</p>
+        </div>
+        <div class="four item">
+            <h3>1ct Cushion Cut Diamond</h3>
+            <p class="desc">Very Good Cut | I Colour | SI2 Clarity</p>
+            <p class="price">$3,837.00</p>
+        </div>
+        <div class="five item">
+            <h3>Round Engagement Ring</h3>
+            <p class="desc">4ct Round Engagement Ring in Platinum</p>
+            <p class="price">$115,713.00</p>
+        </div>
+        <div class="six item">
+            <h3>Solitaire Engagement Ring</h3>
+            <p class="desc">1ct Cushion Solitaire Engagement Ring in 14k White Gold</p>
+            <p class="price">$5,523.00</p>
+        </div>
+    </div>
+    <div class="header">
+        <h4 class="form">Send us a message!</h4>
+        <form
+            action="https://formspree.io/f/mbjwwwol"
+            method="POST"
+        >
+            <input type="hidden" name="_language" value="en" />
+            <label>
+                Your email:
+                <input placeholder="Your email ..." type="email" required="" name="email">
+            </label>
+            <label>
+                Your message:
+                <textarea placeholder="Type your message ..." required="" name="message"></textarea>
+            </label>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

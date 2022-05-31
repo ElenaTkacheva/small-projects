@@ -1,0 +1,124 @@
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(214, 226, 235);
+    font-family: 'Bitter', serif;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header__title {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #f981b5, #022a58);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.container {
+    display: flex;
+}
+.one {
+    background-image: url('https://bluenile.v360.in/63/imaged/gia-6435266876/1/still.jpg');
+}
+.two {
+    background-image: url('https://www.peoplesjewellers.com/productimages/processed/V-20120162_0_800.jpg?pristine=true');
+}
+.three {
+    background-image: url('https://bnsec.bluenile.com/bluenile/is/image/bluenile/-six-prong-solitaire-plus-hidden-halo-diamond-engagement-ring-14k-white-gold-/setting_template_main?$phab_detailmain$&$diam_shape=is{bluenile/integratedhead}&$diam_position=0,0&$ring_position=0,0&$ring_sku=is{bluenile/74171_NGN_RD_setmain}&rgn=-150,870,1800,0&hei=900');
+}
+.four {
+    background-image: url('https://bluenile.v360.in/15/imaged/gia-1257008032/1/still.jpg');
+}
+.five {
+    background-image: url('https://bnsec.bluenile.com/bluenile/is/image/bluenile/-tessere-diamond-engagement-ring-platinum-/setting_template_main?$phab_detailmain$&$diam_shape=is{bluenile/main_NGN_RD_standard_400}&$diam_position=0,100&$ring_position=0,0&$ring_sku=is{bluenile/75709_NGN_setmain}&rgn=-150,870,1800,0&hei=900');
+}
+.six {
+    background-image: url('https://bnsec.bluenile.com/bluenile/is/image/bluenile/-four-petite-nouveau-solitaire-ring-14k-white-gold-/setting_template_main?$phab_detailmain$&$diam_shape=is{bluenile/main_NGN_CU_nouveau_100}&$diam_position=0,130&$ring_position=0,0&$ring_sku=is{bluenile/48875_NGN_setmain}&rgn=-150,870,1800,0&hei=900');
+}
+.item {
+    position: relative;
+    flex: 1;
+    margin: 5px;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+h3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 26px;
+    color: #022a58;
+    opacity: 0;
+}
+.form {
+    margin-top: 60px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #11aff8, #022a58);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.desc {
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    font-size: 14px;
+    opacity: 0;
+}
+.price {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #022a58;
+    opacity: 0;
+}
+.selected {
+    flex: 4;
+}
+.selected h3 {
+    opacity: 1;
+    transition: all 1.5s ease-in;
+}
+.selected .desc {
+    opacity: 1;
+    transition: all 1.5s ease-in;
+}
+.selected .price {
+    opacity: 1;
+    transition: all 1.5s ease-in;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label > * {
+    margin-top: 20px;
+}
+.btn {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #022a58;
+    border: none;
+    background-color: #79d3fc;
+}
+input, textarea {
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
