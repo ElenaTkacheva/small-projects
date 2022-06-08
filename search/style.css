@@ -1,0 +1,57 @@
+body {
+    background-color: silver;
+    font-family: 'Joan', serif;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+.title {
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background-image: linear-gradient(50deg, #3b9bfb 10%, #b469fb 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.input-field {
+    display: flex;
+    justify-content: center;
+}
+#search {
+    width: 700px;
+    border: none;
+    padding: 10px 12px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+input:focus{
+    outline: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.ballet {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #3b9bfb;
+    border-radius: 5px;
+}
+a {
+    color: #b469fb;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+p {
+    margin: 10px auto;
+}
+img {
+    width: 300px;
+    height: 200px;
+}
